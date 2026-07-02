@@ -47,3 +47,40 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* ─── Hero Profile Fixes ─────────────────────────────────────── */
+
+/* 1. Fix overlap: flex column with clean spacing */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+/* 2. Improve text visibility: crisp white + subtle depth shadow */
+.profile-name {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* 3. Smooth fade-in animation with upward slide */
+.profile-name {
+  animation: fadeInUp 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

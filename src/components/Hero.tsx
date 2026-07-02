@@ -88,7 +88,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-24 pb-16 relative z-10 px-6">
-      <div className="max-w-4xl w-full text-center flex flex-col items-center">
+      <div className="profile-container max-w-4xl w-full text-center flex flex-col items-center">
         {/* Animated Badge */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -127,7 +127,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-4xl sm:text-6xl font-display font-extrabold text-white tracking-tight mb-4"
+          className="profile-name text-4xl sm:text-6xl font-display font-extrabold tracking-tight"
         >
           Swadesh <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">Narwariya</span>
         </motion.h1>
