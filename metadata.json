@@ -1,0 +1,6 @@
+{
+  "name": "Swadesh Narwariya Portfolio",
+  "description": "Professional full-stack developer and AI engineer portfolio featuring interactive projects, database message logs, visitor analytics, and a Gemini-powered resume assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
