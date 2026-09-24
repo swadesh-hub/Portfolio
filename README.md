@@ -1,20 +1,60 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ✨ Swadesh's Personal Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio! This project showcases my skills, experience, and the projects I've built. It is designed with modern web technologies to be fast, responsive, and visually stunning.
 
-This contains everything you need to run your app locally.
+## 📸 Preview
 
-View your app in AI Studio: https://ai.studio/apps/91cf7159-ea99-4c0c-8e83-9ff008b7cec6
+![Portfolio Screenshot](./public/screenshot.png)
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+- **Modern Tech Stack:** Built using React and Vite for lightning-fast performance.
+- **Beautiful UI:** Styled with Tailwind CSS and Framer Motion for smooth, interactive animations.
+- **Responsive Design:** Looks great on desktop, tablet, and mobile devices.
+- **Interactive Elements:** Features like a working contact form and an AI-powered chatbot interface.
 
+## 🛠️ Built With
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **[React 19](https://react.dev/)**
+- **[Vite](https://vitejs.dev/)**
+- **[Tailwind CSS 4](https://tailwindcss.com/)**
+- **[Framer Motion](https://www.framer.com/motion/)**
+- **[Lucide React](https://lucide.dev/)**
+
+## 💻 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm (or bun/yarn) installed on your system.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/swadesh-hub/Portfolio.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd Portfolio
+   ```
+3. Install NPM packages
+   ```sh
+   npm install --legacy-peer-deps
+   ```
+4. Start the development server
+   ```sh
+   npm run dev
+   ```
+
+## 🌐 Live Demo
+
+You can easily run this locally by visiting `http://localhost:3000` (or the port specified by Vite) after starting the server!
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+*Designed & Built with ❤️ by Swadesh*
